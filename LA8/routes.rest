@@ -1,0 +1,22 @@
+GET http://localhost:3000/subscribers
+###
+GET http://localhost:3000/subscribers/652bafd3dbc37e255875f14a
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Akashe",
+    "Desc": "Some description here"
+}
+###
+PATCH http://localhost:3000/subscribers/652bb63cfb43a25b6852742b
+Content-Type: application/json
+
+{
+    "name":"Akashey",
+    "Desc": "Some description here"
+}
+###
+DELETE  http://localhost:3000/subscribers/652bb63cfb43a25b6852742b
+
